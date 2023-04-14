@@ -1,0 +1,28 @@
+{
+  "name": "insomnia-1password-variables",
+  "version": "0.0.1",
+  "private": true,
+  "insomnia": {
+    "name": "insomnia-1password-variables",
+    "description": "Insomnia plugin which allows providing secrets from 1password vaults"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "lint": "eslint  src --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@1password/op-js": "^0.1.8"
+  },
+
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^5.0.2"
+  }
+}
