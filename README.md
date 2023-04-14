@@ -5,6 +5,8 @@ Insomnia plugin which allows providing secrets from 1password vaults
 ## Installation
 
 * Install [1Password CLI](https://developer.1password.com/docs/cli/get-started/)
+* Clone repo to insomnia plugins directory
+* Run `npm run build`
 
 
 ## Usage
